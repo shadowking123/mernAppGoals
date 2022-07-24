@@ -5,5 +5,4 @@ const {getGoals, postGoals, putGoals, deleteGoals} = require('../controller/goal
 router.route('/').get(getGoals).post(postGoals)
 router.route('/:id').put(putGoals).delete(deleteGoals)
 
-
 module.exports = router
